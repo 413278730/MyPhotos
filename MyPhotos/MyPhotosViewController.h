@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MyPhotosViewController : UIViewController
+@property (nonatomic,strong) NSArray* imageArray;
+@property (nonatomic,assign) NSInteger currentImageIndex;
 
 @end

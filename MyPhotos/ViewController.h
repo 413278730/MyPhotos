@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef enum {
+    
+    isMyPhotoList = 0,
+    isOtherPhotoList
+    
+}PhotoListType;
 @interface ViewController : UIViewController
+@property (nonatomic,assign) PhotoListType type;
 
 
 @end
